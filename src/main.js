@@ -4,14 +4,12 @@ import router from './router'
 import store from './store'
 import firebase from 'firebase';
 import firestore from 'firebase/firestore';
-import  VueFirestore from 'vue-firestore';
 
 Vue.config.productionTip = false;
 
 //I added this script from firebase, its not int the tutorial.
 //<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-Vue.use(VueFirestore);
 
 var firebaseConfig = {
   apiKey: "AIzaSyA41tGrU9Y1GD4AXbgbQfANLT5ZwUtAmyQ",
