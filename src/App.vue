@@ -14,10 +14,28 @@
   <div class="content">
     <router-view />
   </div>
+  <div id="footer">
+    Source code by Justin Kinsella can found at : <a href="https://github.com/byu-cs-260-spring-2019/lab-5-photo-bomb-JustinKinsella">github</a>
+  </div>
 </div>
 </template>
 
 <style>
+
+#footer {
+
+  position: fixed;
+  bottom: 0;
+  background: #5a5959;
+  color: #f3f1f1;
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -10px;
+}
+
 /* https://color.adobe.com/Ventana-Azul-color-theme-2159606/?showPublished=true */
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
